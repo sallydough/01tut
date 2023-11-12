@@ -12,12 +12,12 @@ const List = () => {
     {
       id: 2,
       checked: false,
-      item: "Item 2",
+      item: "1/2 pound Ground Deer Meat",
     },
     {
       id: 3,
       checked: false,
-      item: "Item 3",
+      item: "Parmesan Cheese",
     },
   ]);
 
