@@ -7,13 +7,13 @@ const Content = () => {
     // useState hook to preserve and change name
     // name is the current state name at any given time (getter)
     // setName is used to set the state (setter)
-    const [name, setName] = useState("Josh")
+    const [name, setName] = useState("Cha")
 
     const [count, setCount] = useState(0);
 
   const handleNameChange = () => {
-    const name = ["Sally", "Kevin", "Myles"];
-    const int = Math.floor(Math.random() * 3);
+    const name = ["Sally", "Kevin", "Myles", "Momma", "Anita"];
+    const int = Math.floor(Math.random() * 5);
     // setName will be pick a name from array above and push that name into current spot of "Josh"
     setName(name[int]);
   };
