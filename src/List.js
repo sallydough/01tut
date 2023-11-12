@@ -12,7 +12,7 @@ const List = () => {
     {
       id: 2,
       checked: false,
-      item: "1/2 pound Ground Deer Meat",
+      item: "1/2 pound Deer Meat",
     },
     {
       id: 3,
